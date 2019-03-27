@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExplicitIntent</string>
+    <string name="receive_data_activity">Receive Data Activity</string>
+    <string name="second_activity">Second Activity</string>
+</resources>
