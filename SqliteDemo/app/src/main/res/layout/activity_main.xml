@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="enter contact name"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="enter number"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Database"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/buttonGetAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get All"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/buttonDeleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
