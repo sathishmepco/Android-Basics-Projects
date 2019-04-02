@@ -47,8 +47,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public ArrayList<ContactInfo> getAllContacts(){
         ArrayList<ContactInfo> list = new ArrayList<>();
         SQLiteDatabase database = getReadableDatabase();
-        Cursor cursor = database.rawQuery("select * from "+TABLE_NAME,null);
-        database.query(TABLE_NAME,null,null,null,null,null,null);
+        Cursor cursor = database.query(TABLE_NAME,null,null,null,null,null,null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()){
             ContactInfo contact = new ContactInfo();
