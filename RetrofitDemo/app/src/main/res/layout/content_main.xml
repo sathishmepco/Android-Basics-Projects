@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/buttonPostParams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Parameters"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonPostJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post JSON"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get String"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonGetJSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get JSON"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonUploadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/buttonDownloadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download File"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
