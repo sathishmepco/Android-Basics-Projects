@@ -15,3 +15,7 @@ Here the keys are Test Api Keys, when you develop it for production purpose, nee
 ## Mock Location Detector
 This application detects whether the current location is taken from system provider of Mock Location Provider.
 <img src="/MockLocationDetector/s1.png"/>
+
+## Syntax Highlighter
+This application shows how to add syntax hightlighter in android applications.
+<img src="/SyntaxHighlighter/s1.png"/>
