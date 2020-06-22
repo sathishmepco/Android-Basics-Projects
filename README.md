@@ -19,3 +19,4 @@ This application detects whether the current location is taken from system provi
 ## Syntax Highlighter
 This application shows how to add syntax hightlighter in android applications.
 <img src="/SyntaxHighlighter/s1.png"/>
+
