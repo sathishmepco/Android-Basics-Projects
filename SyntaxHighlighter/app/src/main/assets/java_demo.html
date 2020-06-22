@@ -1,0 +1,44 @@
+<h2> Factorial Program in Java</h2>
+<thml>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="prism_dark.js"></script>
+        <link rel="stylesheet" href="prism_dark.css">
+    </head>
+    <body>
+    <pre>
+        <code class="language-java">
+/*
+    Factorial of n is the product of all positive
+            descending integers.
+    Factorial of n is denoted by n!.
+    For example:
+    4! = 4*3*2*1 = 24
+    5! = 5*4*3*2*1 = 120
+*/
+class FactorialExample{
+    public static void main(String args[]){
+        int i,fact=1;
+        //It is the number to calculate factorial
+        int number=5;
+
+        for(i=1;i<=number;i++){
+            fact=fact*i;
+        }
+        System.out.println("Factorial of "+number+" is: "+fact);
+    }
+}
+
+/*
+    OUTPUT
+
+    Factorial of 5 is: 120
+    Factorial of 6 is: 720
+    Factorial of 4 is: 24
+    Factorial of 12 is: 479001600
+
+*/
+        </code>
+    </pre>
+    </body>
+</thml>
