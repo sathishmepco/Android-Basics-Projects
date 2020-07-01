@@ -18,3 +18,6 @@ This application detects whether the current location is taken from system provi
 This application shows how to add syntax hightlighter in android applications.
 <img src="/SyntaxHighlighter/s1.png"/>
 
+## SQLite Cipher (Encrypt sqlite database)
+Using SQLIte Cipher library database is encrypted and decrypted.
+<img src="/SQLiteCipherDemo/screen.png"/>
