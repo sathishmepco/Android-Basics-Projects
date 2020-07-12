@@ -21,3 +21,7 @@ This application shows how to add syntax hightlighter in android applications.
 ## SQLite Cipher (Encrypt sqlite database)
 Using SQLIte Cipher library database is encrypted and decrypted.
 <img src="/SQLiteCipherDemo/screen.png"/>
+
+## RecyclerView with Checkbox and EditText
+This project shows how to use checkbox and editext in the recyclerview item row.
+<img src="/CheckBoxRecyclerView/screen.png"/>
